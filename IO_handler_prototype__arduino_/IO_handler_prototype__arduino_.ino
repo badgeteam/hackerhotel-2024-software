@@ -38,23 +38,7 @@ void loop() {
 
   SetMultiplexSwitch (cycleshort, LOW);
   if (ReadSwitch()) inputflag = true;
-//  if (digitalRead(10) == 0) {
-//    inputstatus = 1 + cycleshort * 3;
-//  }
-//  if (digitalRead(9) == 0) {
-//    inputstatus = 2 + cycleshort * 3;
-//  }
-//  if (digitalRead(8) == 0) {
-//    inputstatus = 3 + cycleshort * 3;
-//  }
-//  if (inputstatus > 0) inputflag = true;
   SetMultiplexSwitch (cycleshort, HIGH);
-
-  //  SetMultiplexSwitch (SW4, LOW);
-  //  if (digitalRead(10) == 0) Serial.println("SW4 Right");
-  //  if (digitalRead(9) == 0) Serial.println("SW4 Button");
-  //  if (digitalRead(8) == 0)Serial.println("SW4 Left");
-  //  SetMultiplexSwitch (SW4, HIGH);
 
   //debug
   if (Serial.available() > 0) {
@@ -71,6 +55,8 @@ void loop() {
     serialdebug ('b');
   }
   //if (cyclelong == 98) serialdebug ('d');
+ 
+ //debug end
 }
 
 void serialdebug (int incomingcommand_)
@@ -122,6 +108,7 @@ void SetMultiplexSwitch(int selectedswitch_, bool state)
   }
 }
 
+// Reads the switches state and populate input status, returns 1 if an input is detected
 bool ReadSwitch (void)
 {
   if (digitalRead(10) == 0) {

@@ -1,0 +1,2560 @@
+
+WARNING: data.sa_tab is None in function linker_status_changed_slot()
+
+
+--------------------------------------------------------------------------------
+List serial ports:
+    name:        COM8
+    description: USB Serial Device (COM8)
+
+    name:        COM1
+    description: Communications Port (COM1)
+
+--------------------------------------------------------------------------------
+
+SerialPort(
+    port = COM8,
+    baudrate = 115200,
+    bytesize = 8,
+    parity = N,
+    stopbits = 1,
+)
+
+
+INFO: Close serial connection
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    clean
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'clean', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+SerialPort(
+    port = COM8,
+    baudrate = 115200,
+    bytesize = 8,
+    parity = N,
+    stopbits = 1,
+)
+
+!! could not open port 'COM8': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+dropdown_selection_changed_from_to(
+    dropdown_src = console,
+    from_comport = COM8,
+    to_comport   = refresh,
+)
+
+
+--------------------------------------------------------------------------------
+List serial ports:
+    name:        COM1
+    description: Communications Port (COM1)
+
+    name:        COM3
+    description: USB Serial Device (COM3)
+
+--------------------------------------------------------------------------------
+dropdown_selection_changed_from_to(
+    dropdown_src = console,
+    from_comport = COM1,
+    to_comport   = COM3,
+)
+
+
+SerialPort(
+    port = COM3,
+    baudrate = 115200,
+    bytesize = 8,
+    parity = N,
+    stopbits = 1,
+)
+
+
+INFO: Close serial connection
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+SerialPort(
+    port = COM3,
+    baudrate = 115200,
+    bytesize = 8,
+    parity = N,
+    stopbits = 1,
+)
+
+
+INFO: Close serial connection
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+SerialPort(
+    port = COM3,
+    baudrate = 115200,
+    bytesize = 8,
+    parity = N,
+    stopbits = 1,
+)
+
+
+SerialPort(
+    port = COM3,
+    baudrate = 115200,
+    bytesize = 8,
+    parity = N,
+    stopbits = 1,
+)
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+SerialPort(
+    port = COM3,
+    baudrate = 115200,
+    bytesize = 8,
+    parity = N,
+    stopbits = 1,
+)
+
+receive_error()
+ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+COM3: disconnected
+COM3: reconnected
+receive_error()
+ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+COM3: disconnected
+COM3: reconnected
+
+SerialPort(
+    port = COM3,
+    baudrate = 115200,
+    bytesize = 8,
+    parity = N,
+    stopbits = 1,
+)
+
+
+INFO: Close serial connection
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+Dashboard got message: life-check
+Dashboard got message: life-check
+Dashboard got message: show-project::C:/Users/Shizune/ch32v003f4p6-evt-r0-1v1
+Dashboard got message: show-project::C:/Users/Shizune/ch32v003f4p6-evt-r0-1v1
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+SerialPort(
+    port = COM3,
+    baudrate = 115200,
+    bytesize = 8,
+    parity = N,
+    stopbits = 1,
+)
+
+
+INFO: Close serial connection
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+SerialPort(
+    port = COM3,
+    baudrate = 115200,
+    bytesize = 8,
+    parity = N,
+    stopbits = 1,
+)
+
+
+INFO: Close serial connection
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    build
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'build', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+Dashboard got message: life-check
+Dashboard got message: life-check
+Dashboard got message: show-project::C:/Users/Shizune/ch32v003f4p6-evt-r0-1v1
+Dashboard got message: show-project::C:/Users/Shizune/ch32v003f4p6-evt-r0-1v1
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+
+
+$(MAKE)
+    flash
+    -C
+    build
+    -f
+    ../config/makefile
+    TOOLPREFIX=$(TOOLPREFIX)
+    FLASHTOOL=$(FLASHTOOL)
+
+
+command = ['C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_make_4.2.1_64b/make.exe', 'flash', '-C', 'build', '-f', '../config/makefile', 'TOOLPREFIX=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/gnu_riscv_xpack_toolchain_10.2.0_1.2_64b/bin/riscv-none-embed-', 'FLASHTOOL=C:/Users/Shizune/Desktop/embeetle/embeetle/beetle_tools/windows/openocd_wch_0.11.0_dev02415_32b/bin/openocd.exe']
+
+cwd = C:/Users/Shizune/Documents/GitHub/hackerhotel-2024-software/IO_handler_CH32V003F4U6
+
+

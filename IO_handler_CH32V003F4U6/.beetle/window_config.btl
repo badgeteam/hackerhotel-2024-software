@@ -1,7 +1,7 @@
 {
     "WINDOW-SIZE": [
         2019,
-        1657
+        1127
     ],
     "BOXES": {
         "0": {
@@ -10,43 +10,13 @@
                     "BOX-V": {
                         "0": {
                             "TABS": {
-                                "rel://source/user_code/main.c": {
+                                "rel://source/Peripheral/inc/ch32v00x_rcc.h": {
                                     "class": "Editor",
                                     "tab-index": 0,
                                     "data": {
-                                        "line": 64,
-                                        "index": 17,
-                                        "first-visible-line": 18,
-                                        "x-view-offset": 0
-                                    }
-                                },
-                                "rel://source/Peripheral/src/ch32v00x_gpio.c": {
-                                    "class": "Editor",
-                                    "tab-index": 1,
-                                    "data": {
-                                        "line": 282,
-                                        "index": 41,
-                                        "first-visible-line": 248,
-                                        "x-view-offset": 0
-                                    }
-                                },
-                                "rel://source/Peripheral/inc/ch32v00x_gpio.h": {
-                                    "class": "Editor",
-                                    "tab-index": 2,
-                                    "data": {
-                                        "line": 81,
-                                        "index": 31,
-                                        "first-visible-line": 9,
-                                        "x-view-offset": 0
-                                    }
-                                },
-                                "rel://source/Peripheral/inc/ch32v00x_rcc.h": {
-                                    "class": "Editor",
-                                    "tab-index": 3,
-                                    "data": {
-                                        "line": 88,
-                                        "index": 8,
-                                        "first-visible-line": 38,
+                                        "line": 46,
+                                        "index": 63,
+                                        "first-visible-line": 29,
                                         "x-view-offset": 0
                                     }
                                 },
@@ -55,7 +25,7 @@
                         }
                     },
                     "SIZES": [
-                        1546
+                        1016
                     ]
                 },
                 "1": {
@@ -71,38 +41,62 @@
                                     }
                                 },
                                 "1": {
-                                    "TABS": {
-                                        "SymbolStack": {
-                                            "class": "Symbols"
+                                    "BOX-V": {
+                                        "0": {
+                                            "TABS": {
+                                                "SymbolStack": {
+                                                    "class": "Symbols"
+                                                },
+                                                "CURRENT-INDEX": 0
+                                            }
                                         },
-                                        "CURRENT-INDEX": 0
-                                    }
+                                        "1": {
+                                            "TABS": {
+                                                "Serial Monitor": {
+                                                    "class": "SerialConsole"
+                                                },
+                                                "CURRENT-INDEX": 0
+                                            }
+                                        }
+                                    },
+                                    "SIZES": [
+                                        254,
+                                        254
+                                    ]
                                 }
                             },
                             "SIZES": [
-                                377,
-                                706
+                                349,
+                                644
                             ]
                         },
                         "1": {
-                            "BOX-H": {
+                            "BOX-V": {
                                 "0": {
-                                    "TABS": {
-                                        "Project Dashboard": {
-                                            "class": "Dashboard"
+                                    "BOX-H": {
+                                        "0": {
+                                            "TABS": {
+                                                "Diagnostics": {
+                                                    "class": "Diagnostics"
+                                                },
+                                                "CURRENT-INDEX": 0
+                                            }
                                         },
-                                        "CURRENT-INDEX": 0
-                                    }
+                                        "1": {
+                                            "TABS": {
+                                                "Project Dashboard": {
+                                                    "class": "Dashboard"
+                                                },
+                                                "CURRENT-INDEX": 0
+                                            }
+                                        }
+                                    },
+                                    "SIZES": [
+                                        497,
+                                        496
+                                    ]
                                 },
                                 "1": {
-                                    "TABS": {
-                                        "Diagnostics": {
-                                            "class": "Diagnostics"
-                                        },
-                                        "CURRENT-INDEX": 0
-                                    }
-                                },
-                                "2": {
                                     "TABS": {
                                         "Output": {
                                             "class": "Console"
@@ -112,21 +106,20 @@
                                 }
                             },
                             "SIZES": [
-                                360,
-                                303,
-                                418
+                                206,
+                                296
                             ]
                         }
                     },
                     "SIZES": [
-                        776,
-                        768
+                        510,
+                        504
                     ]
                 }
             },
             "SIZES": [
-                932,
-                1085
+                1022,
+                995
             ]
         }
     }

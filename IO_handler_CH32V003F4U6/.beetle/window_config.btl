@@ -14,9 +14,9 @@
                                     "class": "Editor",
                                     "tab-index": 0,
                                     "data": {
-                                        "line": 46,
-                                        "index": 63,
-                                        "first-visible-line": 29,
+                                        "line": 154,
+                                        "index": 0,
+                                        "first-visible-line": 154,
                                         "x-view-offset": 0
                                     }
                                 },
@@ -52,10 +52,7 @@
                                         },
                                         "1": {
                                             "TABS": {
-                                                "Serial Monitor": {
-                                                    "class": "SerialConsole"
-                                                },
-                                                "CURRENT-INDEX": 0
+                                                "CURRENT-INDEX": -1
                                             }
                                         }
                                     },

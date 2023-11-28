@@ -45,20 +45,20 @@ void GPIO_Config(void)
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); // to Enable the clock for Port C
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE); // to Enable the clock for Port A
 
-    // initialise PC5 as input (SW left) // new is PD0
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
+    // initialise PC5 as input (SW left)
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
-    GPIO_Init(GPIOD, &GPIO_InitStructure);
+    GPIO_Init(GPIOC, &GPIO_InitStructure);
 
-    // initialise PC6 as input (SW middle) // new is PA2
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
+    // initialise PC6 as input (SW middle)
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
-    GPIO_Init(GPIOA, &GPIO_InitStructure);
+    GPIO_Init(GPIOC, &GPIO_InitStructure);
 
-    // initialise PC7 as input (SW right) // new is PA1
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;
+    // initialise PC7 as input (SW right)
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
-    GPIO_Init(GPIOA, &GPIO_InitStructure);
+    GPIO_Init(GPIOC, &GPIO_InitStructure);
 
     // initialise PD6 as output (SW1 select)
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6;
@@ -78,17 +78,29 @@ void GPIO_Config(void)
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOD, &GPIO_InitStructure);
 
-    // initialise PD3 as output (SW4 select)
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3;
+    // // initialise PD3 as output (SW4 select)
+    // GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3;
+    // GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+    // GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    // GPIO_Init(GPIOD, &GPIO_InitStructure);
+
+    // // initialise PD2 as output (SW5 select)
+    // GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
+    // GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+    // GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    // GPIO_Init(GPIOD, &GPIO_InitStructure);
+
+    // initialise PA1 as output (SW4 select)
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-    GPIO_Init(GPIOD, &GPIO_InitStructure);
+    GPIO_Init(GPIOA, &GPIO_InitStructure);
 
-    // initialise PD2 as output (SW5 select)
+    // initialise PA2 as output (SW5 select)
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-    GPIO_Init(GPIOD, &GPIO_InitStructure);
+    GPIO_Init(GPIOA, &GPIO_InitStructure);
 }
 
 // void morsedebug(int payload)
@@ -128,10 +140,12 @@ void morsedebug(int payload)
     SetLEDpin(0, LEDLOW);
     for (int n = 0; n < payload; n++)
     {
-        SetLEDpin(1, LEDHIGH);
+        // SetLEDpin(1, LEDHIGH);
+        GPIO_WriteBit(GPIOD, GPIO_Pin_2, SET);
+        Delay_Ms(50);
+        // SetLEDpin(1, LEDLOW);
+        GPIO_WriteBit(GPIOD, GPIO_Pin_2, RESET);
         Delay_Ms(100);
-        SetLEDpin(1, LEDLOW);
-        Delay_Ms(200);
     }
     Delay_Ms(200);
 }
@@ -280,11 +294,11 @@ void SetMultiplexSwitch(int selectedswitch_, int state)
     case SW3: // PD4
         GPIO_WriteBit(GPIOD, GPIO_Pin_4, state);
         break;
-    case SW4: // PD3
-        GPIO_WriteBit(GPIOD, GPIO_Pin_3, state);
+    case SW4: // PD3//new is PA1
+        GPIO_WriteBit(GPIOA, GPIO_Pin_1, state);
         break;
-    case SW5: // PD2
-        GPIO_WriteBit(GPIOD, GPIO_Pin_2, state);
+    case SW5: // PD2 //new is PA2
+        GPIO_WriteBit(GPIOA, GPIO_Pin_2, state);
         break;
     }
 }
@@ -293,22 +307,22 @@ void SetMultiplexSwitch(int selectedswitch_, int state)
 int ReadSwitch(void)
 {
     // PC5 - left
-    if (GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_0) == 0)
+    if (GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_5) == 0)
     {
         inputstatus = 1 + cycleshort * 3;
-        return 0;
+        return 1;
     }
     // PC6 - button
-    else if (GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_2) == 0)
+    else if (GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_6) == 0)
     {
         inputstatus = 2 + cycleshort * 3;
-        return 0;
+        return 1;
     }
     // PC7 - right
-    else if (GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_1) == 0)
+    else if (GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_7) == 0)
     {
         inputstatus = 3 + cycleshort * 3;
-        return 0;
+        return 1;
     }
     else
         return 0;
@@ -319,20 +333,22 @@ void SetLEDpin(int pin, int state)
 {
     //  PD0 (A)
     //  PC0 (B)
-    //  PA1 (C)
+    //  PA1 (C) new PD3
     //  PC3 (D)
-    //  PA2 (E)
+    //  PA2 (E) new PD2
     GPIO_PinRemapConfig(AFIO_PCFR1_PA12_REMAP, DISABLE);
 
-    uint16_t LEDinputLUT[5] = {GPIO_Pin_0, GPIO_Pin_0, GPIO_Pin_1, GPIO_Pin_3, GPIO_Pin_2};
-    uint32_t LEDinputportLUT[5] = {GPIOD, GPIOC, GPIOA, GPIOC, GPIOA};
-    // uint16_t LEDinputLUT[5] = {GPIO_Pin_0, GPIO_Pin_5, GPIO_Pin_3, GPIO_Pin_6, GPIO_Pin_7};
-    // uint32_t LEDinputportLUT[5] = {GPIOC, GPIOC, GPIOC, GPIOC, GPIOC};
+    // original
+    // uint16_t LEDinputLUT[5] = {GPIO_Pin_0, GPIO_Pin_0, GPIO_Pin_1, GPIO_Pin_3, GPIO_Pin_2};
+    // uint32_t LEDinputportLUT[5] = {GPIOD, GPIOC, GPIOA, GPIOC, GPIOA};
+
+    uint16_t LEDinputLUT[5] = {GPIO_Pin_0, GPIO_Pin_0, GPIO_Pin_3, GPIO_Pin_3, GPIO_Pin_2};
+    uint32_t LEDinputportLUT[5] = {GPIOD, GPIOC, GPIOD, GPIOC, GPIOD};
+
 
     GPIO_InitTypeDef GPIO_InitStructure = {0};
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE); // to Enable the clock for Port D
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); // to Enable the clock for Port C
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE); // to Enable the clock for Port A
 
     switch (state)
     {

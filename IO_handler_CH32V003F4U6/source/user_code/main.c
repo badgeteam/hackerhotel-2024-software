@@ -7,15 +7,25 @@
 #define SW4 3
 #define SW5 4
 
-#define A 0
-#define B 1
-#define C 2
-#define D 3
-#define E 4
+// #define A 0
+// #define B 1
+// #define C 2
+// #define D 3
+// #define E 4
 
 #define LEDINPUT 0
 #define LEDLOW 1
 #define LEDHIGH 2
+
+#define test 19
+
+// #define N 0
+// #define M 1
+// #define V 2
+// #define R 3
+
+
+enum Telegraph {N, M, V, R, S, W, O, F, T, P, B, G, Y, H, K, E, I, L, A, D};
 
 // debug
 int incomingcommand = 0;
@@ -102,33 +112,6 @@ void GPIO_Config(void)
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOA, &GPIO_InitStructure);
 }
-
-// void morsedebug(int payload)
-// {
-//     GPIO_InitTypeDef GPIO_InitStructure = {0}; // structure variable used for the GPIO configuration
-//     // debug
-//     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;         // Defines which Pin to configure
-//     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;  // Defines Output Type
-//     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz; // Defines speed
-//     GPIO_Init(GPIOD, &GPIO_InitStructure);
-
-//     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;         // Defines which Pin to configure
-//     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;  // Defines Output Type
-//     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz; // Defines speed
-//     GPIO_Init(GPIOC, &GPIO_InitStructure);
-
-//     GPIO_WriteBit(GPIOC, GPIO_Pin_0, RESET);
-//     for (int n = 0; n < payload; n++)
-//     {
-//         GPIO_WriteBit(GPIOD, GPIO_Pin_0, SET);
-//         Delay_Ms(100);
-//         GPIO_WriteBit(GPIOD, GPIO_Pin_0, RESET);
-//         Delay_Ms(200);
-//     }
-//     Delay_Ms(200);
-//     GPIO_WriteBit(GPIOC, GPIO_Pin_0, RESET);
-//     GPIO_WriteBit(GPIOD, GPIO_Pin_0, RESET);
-// }
 
 void morsedebug(int payload)
 {
@@ -223,22 +206,47 @@ int main(void)
     for (int n = 0; n < 20; n++)
         LEDPWM[n] = 99;
 
-    // SetLEDpin(D, LEDLOW);
-    // SetLEDpin(A, LEDHIGH);
-
     // DEBUG
     // debugfunction();
-    for (int i = 0; i < 5; i++)
-    {
-        for (int n = 0; n < 5; n++)
-        {
-            for (int y = 0; y < 5; y++)
-                SetLEDpin(y, LEDINPUT);
-            SetLEDpin(i, LEDLOW);
-            SetLEDpin(n, LEDHIGH);
-            Delay_Ms(500);
-        }
-    }
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     for (int n = 0; n < 5; n++)
+    //     {
+    //         for (int y = 0; y < 5; y++)
+    //             SetLEDpin(y, LEDINPUT);
+    //         SetLEDpin(i, LEDLOW);
+    //         SetLEDpin(n, LEDHIGH);
+    //         Delay_Ms(50);
+    //     }
+    // }
+
+ 
+
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     SetLEDpin(i, LEDLOW);
+
+    //     for (int n = 0; n < 4; n++)
+    //     {
+    //            for (int y = 0; y < 5; y++) // Set all LEDs as inputs
+    //     SetLEDpin(y, LEDINPUT);
+    //     SetLEDpin(i, LEDLOW);
+    //         if (LEDPWM[i * 4 + n] >= cyclelong)
+    //             SetLEDpin((i + n + 1) % 5, LEDHIGH);
+    //                         Delay_Ms(50);
+
+    //             SetLEDpin((i + n + 1) % 5, LEDLOW);
+    //     }
+    // }
+
+
+    LEDPWM[A] = 0;
+        LEDPWM[D] = 0;
+
+    LEDPWM[G] = 0;
+
+    LEDPWM[L] = 0;
+
     // GPIO_WriteBit(GPIOC, GPIO_Pin_0, RESET);
     // GPIO_WriteBit(GPIOD, GPIO_Pin_0, RESET);
     //  USART_Printf_Init(115200);
@@ -259,6 +267,7 @@ int main(void)
         if (ReadSwitch())
             inputflag = 1;
         SetMultiplexSwitch(cycleshort, SET);
+        // Multi Switches end
 
         // Charlieplex LED controller (as described in the draw.io document)
         for (int n = 0; n < 5; n++) // Set all LEDs as inputs
@@ -268,8 +277,8 @@ int main(void)
         {
             if (LEDPWM[cycleshort * 4 + n] >= cyclelong)
                 SetLEDpin((cycleshort + n + 1) % 5, LEDHIGH);
-            // delay(500);
         }
+        // Charlieplex LED controller end
 
         // debug
         if (inputflag)
@@ -344,7 +353,6 @@ void SetLEDpin(int pin, int state)
 
     uint16_t LEDinputLUT[5] = {GPIO_Pin_0, GPIO_Pin_0, GPIO_Pin_3, GPIO_Pin_3, GPIO_Pin_2};
     uint32_t LEDinputportLUT[5] = {GPIOD, GPIOC, GPIOD, GPIOC, GPIOD};
-
 
     GPIO_InitTypeDef GPIO_InitStructure = {0};
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE); // to Enable the clock for Port D

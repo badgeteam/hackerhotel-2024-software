@@ -7,25 +7,41 @@
 #define SW4 3
 #define SW5 4
 
-// #define A 0
-// #define B 1
-// #define C 2
-// #define D 3
-// #define E 4
-
 #define LEDINPUT 0
 #define LEDLOW 1
 #define LEDHIGH 2
 
-#define test 19
+#define IDLE 0
+#define LEFT 1
+#define BUTTON 2
+#define RIGHT 3
 
-// #define N 0
-// #define M 1
-// #define V 2
-// #define R 3
+#define AnitmationBr1 15
+#define AnitmationBr2 99
 
-
-enum Telegraph {N, M, V, R, S, W, O, F, T, P, B, G, Y, H, K, E, I, L, A, D};
+enum Telegraph
+{
+    N,
+    M,
+    V,
+    R,
+    S,
+    W,
+    O,
+    F,
+    T,
+    P,
+    B,
+    G,
+    Y,
+    H,
+    K,
+    E,
+    I,
+    L,
+    A,
+    D
+};
 
 // debug
 int incomingcommand = 0;
@@ -34,16 +50,22 @@ int lastinputstatus = 0;
 // debug end
 
 /* Global Variable */
-int selectedswitch = 0;
-int inputstatus = 0;
+int selectedswitch = 0; // not used
+int inputstatus = 0;    // not used
 int cycleshort = 0;
 int cyclelong = 0;
-int inputflag = 0;
+int millis = 0;
+int inputflag = 0; // not used
+int testflag1 = 0;
+int testflag2 = 0;
 int LEDPWM[20];
+int SWstate[5] = {0, 0, 0, 0, 0};
 
 void SetMultiplexSwitch(int selectedswitch_, int state);
-int ReadSwitch(void);
+int ReadSwitch(selectedswitch_);
 void SetLEDpin(int pin, int state);
+void PlayLEDAnimation(void);
+void RelayControl(int state);
 
 // Initialises switches GPIOs and clocks
 void GPIO_Config(void)
@@ -123,11 +145,11 @@ void morsedebug(int payload)
     SetLEDpin(0, LEDLOW);
     for (int n = 0; n < payload; n++)
     {
-        // SetLEDpin(1, LEDHIGH);
-        GPIO_WriteBit(GPIOD, GPIO_Pin_2, SET);
+        SetLEDpin(1, LEDHIGH);
+        // GPIO_WriteBit(GPIOD, GPIO_Pin_2, SET);
         Delay_Ms(50);
-        // SetLEDpin(1, LEDLOW);
-        GPIO_WriteBit(GPIOD, GPIO_Pin_2, RESET);
+        SetLEDpin(1, LEDLOW);
+        // GPIO_WriteBit(GPIOD, GPIO_Pin_2, RESET);
         Delay_Ms(100);
     }
     Delay_Ms(200);
@@ -204,7 +226,7 @@ int main(void)
 
     // Set all LEDs to maximum brightness
     for (int n = 0; n < 20; n++)
-        LEDPWM[n] = 99;
+        LEDPWM[n] = 0;
 
     // DEBUG
     // debugfunction();
@@ -219,8 +241,6 @@ int main(void)
     //         Delay_Ms(50);
     //     }
     // }
-
- 
 
     // for (int i = 0; i < 5; i++)
     // {
@@ -239,14 +259,6 @@ int main(void)
     //     }
     // }
 
-
-    LEDPWM[A] = 0;
-        LEDPWM[D] = 0;
-
-    LEDPWM[G] = 0;
-
-    LEDPWM[L] = 0;
-
     // GPIO_WriteBit(GPIOC, GPIO_Pin_0, RESET);
     // GPIO_WriteBit(GPIOD, GPIO_Pin_0, RESET);
     //  USART_Printf_Init(115200);
@@ -260,33 +272,42 @@ int main(void)
             cycleshort = 0; // cycle between 5 state each loop
         cyclelong++;
         if (cyclelong > 99)
+        {
             cyclelong = 0; // cycle between 100 state each loop
-
+            millis++;
+        }
         // Multi Switches read(as described in the draw.io document)
-        SetMultiplexSwitch(cycleshort, RESET);
-        if (ReadSwitch())
+        if (ReadSwitch(cycleshort))
             inputflag = 1;
-        SetMultiplexSwitch(cycleshort, SET);
         // Multi Switches end
 
         // Charlieplex LED controller (as described in the draw.io document)
         for (int n = 0; n < 5; n++) // Set all LEDs as inputs
             SetLEDpin(n, LEDINPUT);
+
         SetLEDpin(cycleshort, LEDLOW);
         for (int n = 0; n < 4; n++)
         {
-            if (LEDPWM[cycleshort * 4 + n] >= cyclelong)
+            if (LEDPWM[cycleshort * 4 + n] > cyclelong)
                 SetLEDpin((cycleshort + n + 1) % 5, LEDHIGH);
         }
         // Charlieplex LED controller end
 
         // debug
-        if (inputflag)
-        {
-            morsedebug(inputstatus);
-            inputflag = 0;
-        }
-        Delay_Us(100);
+        // if (inputflag)
+        // {
+        //     morsedebug(inputstatus);
+
+        //     if (inputstatus == 3)
+        //         LEDPWM[H] = 20;
+        //     LEDPWM[E] = 20;
+        //     LEDPWM[B] = 20;
+        //     LEDPWM[A] = 20;
+        //     inputflag = 0;
+        // }
+
+        PlayLEDAnimation();
+        Delay_Us(1);
     }
 }
 
@@ -312,29 +333,36 @@ void SetMultiplexSwitch(int selectedswitch_, int state)
     }
 }
 
-// Reads the switches state and populate input status, returns 1 if an input is detected
-int ReadSwitch(void)
+// Sets the switch multiplexer and reads the switches state and populate input status, returns 1 if an input has changed
+int ReadSwitch(selectedswitch_)
 {
-    // PC5 - left
+    int previousstate = SWstate[selectedswitch_];
+    SetMultiplexSwitch(selectedswitch_, RESET);
+    // PC5 - right
     if (GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_5) == 0)
     {
-        inputstatus = 1 + cycleshort * 3;
-        return 1;
+        inputstatus = 1 + selectedswitch_ * 3;
+        SWstate[selectedswitch_] = RIGHT;
     }
     // PC6 - button
     else if (GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_6) == 0)
     {
-        inputstatus = 2 + cycleshort * 3;
-        return 1;
+        inputstatus = 2 + selectedswitch_ * 3;
+        SWstate[selectedswitch_] = BUTTON;
     }
-    // PC7 - right
+    // PC7 - left
     else if (GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_7) == 0)
     {
-        inputstatus = 3 + cycleshort * 3;
-        return 1;
+        inputstatus = 3 + selectedswitch_ * 3;
+        SWstate[selectedswitch_] = LEFT;
     }
     else
+        SWstate[selectedswitch_] = IDLE;
+    SetMultiplexSwitch(selectedswitch_, SET);
+    if (previousstate == SWstate[selectedswitch_])
         return 0;
+    else
+        return 1;
 }
 
 // Sets the 5 LED pins either as input, high or low
@@ -382,4 +410,63 @@ void SetLEDpin(int pin, int state)
         GPIO_WriteBit(LEDinputportLUT[pin], LEDinputLUT[pin], SET);
         break;
     }
+}
+
+void PlayLEDAnimation(void)
+{
+    //RelayControl(RESET);
+    if (testflag1 == 0)
+        for (int n = 0; n < 20; n++)
+            LEDPWM[n] = 0;
+    else if ((testflag1 + 50) > millis )
+    {
+        testflag1 = 0;
+
+    }
+
+        if (SWstate[SW1] == LEFT)
+    {
+        LEDPWM[H] = AnitmationBr1;
+        LEDPWM[E] = AnitmationBr1;
+        LEDPWM[B] = AnitmationBr1;
+        LEDPWM[A] = AnitmationBr1;
+    }
+
+    if (SWstate[SW3] == RIGHT)
+    {
+        LEDPWM[E] = AnitmationBr1;
+        LEDPWM[I] = AnitmationBr1;
+        LEDPWM[O] = AnitmationBr1;
+        LEDPWM[T] = AnitmationBr1;
+    }
+
+    if (SWstate[SW4] == RIGHT)
+    {
+        LEDPWM[B] = AnitmationBr1;
+        LEDPWM[F] = AnitmationBr1;
+        LEDPWM[K] = AnitmationBr1;
+        LEDPWM[P] = AnitmationBr1;
+    }
+
+    if (SWstate[SW4] == RIGHT && SWstate[SW1] == LEFT)
+    {
+        LEDPWM[B] = AnitmationBr2;
+        testflag1 = millis;
+        RelayControl(SET);
+    }
+}
+
+void RelayControl(int state)
+{
+    GPIO_InitTypeDef GPIO_InitStructure = {0}; // structure variable used for the GPIO configuration
+
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); // to Enable the clock for Port C
+
+    // initialise PC1 as output
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_Init(GPIOC, &GPIO_InitStructure);
+
+    GPIO_WriteBit(GPIOC, GPIO_Pin_1, state);
 }
